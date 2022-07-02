@@ -163,7 +163,7 @@ body {
   max-width: 300px;
   min-width: 200px;
   height: 250px;
-  background-color: #292929;
+  /* background-color: #292929; */
   margin: 10px;
   border-radius: 10px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
@@ -227,8 +227,8 @@ body {
   margin: 0 auto;
   font-size: 13px;
   text-align: center;
-  margin-top: 20px;
-  color: white;
+  margin-top: 40px;
+  color: black;
   font-weight: 200;
   letter-spacing: 2px;
   opacity: 0;
@@ -238,6 +238,7 @@ body {
 
 .card:hover {
   height: 270px;
+  background: white
 }
 
 .card:hover .info {
@@ -251,7 +252,7 @@ body {
 }
 
 .card:hover .icon {
-  background-position: -120px;
+  /* background-position: -120px; */
   transition: all 0.3s ease;
 }
 
@@ -261,4 +262,8 @@ body {
   -webkit-text-fill-color: transparent;
   opacity: 1;
   transition: all 0.3s ease;
+}
+
+.img-circle {
+  border-radius: 50%;
 }
